@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <meta name="author" content="UAO">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -20,7 +22,91 @@
 
     <!-- Contenido -->
     <main>
-        
+        <img width="400" src="https://i.pinimg.com/736x/5a/4d/a4/5a4da4b27b5a19a862e3a922e720ff88.jpg" alt="Kero">
     </main>
+
+    <video width="400" controls>
+        <source src="assets/conejo.mp4" type="video/mp4">
+        <source src="conejo.ogg" type="video/ogg">
+    </video>
+
+    <audio controls>
+        <source src="assets/horse.ogm" type="audio/ogg">
+    </audio>
+
+    <iframe name="UAO" src="https://www.youtube.com/embed/CEJ1u7bCueM?si=_gsOWY4cDhG2pktM" width="600" height="300"
+        frameborder="0"></iframe>
+
+    <a href="https://www.google.com">Google</a>
+
+    <!-- Tablas -->
+    <table>
+        <tr>
+            <th><img width="200" src="https://i.pinimg.com/736x/5a/4d/a4/5a4da4b27b5a19a862e3a922e720ff88.jpg"
+                    alt="Kero"></th>
+
+            <th><video width="300" controls>
+                    <source src="assets/conejo.mp4" type="video/mp4">
+                    <source src="conejo.ogg" type="video/ogg">
+                </video></th>
+
+            <th><iframe name="UAO" src="https://www.youtube.com/embed/CEJ1u7bCueM?si=_gsOWY4cDhG2pktM" width="300"
+                    height="200" frameborder="0"></iframe></th>
+
+        </tr>
+        <tr>
+            <th>col1</th>
+            <th>col2</th>
+            <th>col3</th>
+        </tr>
+        <tr>
+            <th>col1</th>
+            <th>col2</th>
+            <th>col3</th>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <form method="post" action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingrese nombre">
+        <br>
+        <br>
+        <label for="">Correo</label>
+        <input type="email" placeholder="Ingrese input">
+        <br>
+        <br>
+        <label for="">Contraseña</label>
+        <input type="password" name="" id="" placeholder="Ingrese contraseña">
+        <br>
+        <br>
+        <label for="">Fecha de Nacimiento</label>
+        <input type="date" name="" id="">
+        <br>
+        <br>
+        <label for="">Activo</label>
+        <input type="checkbox" name="" id="">
+        <br>
+        <br>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button>enviar</button>
+    </form>
+    <br>
+    <br>
+    <form action="" method="post">
+        <select name="" id="">
+            <option disabled selected>Elige una opción</option>
+            <option value="1">Opción 1</option>
+            <option value="1">Opción 2</option>
+            <option value="1">Opción 3</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
+
 </html>
